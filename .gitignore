@@ -1,5 +1,7 @@
 *.py[co]
 
+fabfile.py
+
 # Packages
 *.db
 *.egg
