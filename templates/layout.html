@@ -1,0 +1,28 @@
+{% spaceless %}
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{% block title %}{% endblock %}</title>
+
+	<link rel="stylesheet" href="{% static "css/app.css" %}">
+	<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+</head>
+<body id="page-{% block page %}home{% endblock %}" class="{% block classes %}{% endblock %}">
+
+	{% block header %}{% include "header.html" %}{% endblock %}
+
+	<div role="main">
+		{% block content %}{% endblock %}
+	</div>
+
+	{% block footer %}{% include "footer.html" %}{% endblock %}
+
+	<script src="{% static "js/src/lib/jquery-1.9.0.js" %}"></script>
+	{% block js %}{% endblock %}
+{% endspaceless %}
+{% comment %}
+</body>
+</html>
+{% endcomment %}
