@@ -32,15 +32,10 @@ include/
 .mr.developer.cfg
 static/
 
-_res/.sass-cache/
-_res/css/*.css
-_res/tmp/
-
-
 lib-cov
 *.seed
 *.log
-*.csv
+# *.csv
 *.dat
 *.out
 *.pid
@@ -50,9 +45,7 @@ pids
 logs
 results
  
-node_modules
+# node_modules
 npm-debug.log
 
 .DS_Store
-
-bower_components
