@@ -30,7 +30,7 @@ include/
 
 #Mr Developer
 .mr.developer.cfg
-static/
+# static/
 
 lib-cov
 *.seed
