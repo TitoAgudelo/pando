@@ -1,4 +1,4 @@
 pando
 =====
 
-simple web page with django and foundation zurb
+simple web page with django and bootstrap

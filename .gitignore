@@ -1,5 +1,7 @@
 *.py[co]
 *.pyc
+gunicorn.sh
+pando.ai
 
 fabfile.py
 
